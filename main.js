@@ -49,7 +49,7 @@ drawTree(canvas.width/2, canvas.height - 80, 180, 0, 20, 'brown', 'green');
 function generateRandomTree() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     let centerX = canvas.width/2;
-    let len = Math.floor((Math.random() * 80) + 100);
+    let len = Math.floor((Math.random() * 100) + 100); // 80/ 120
     let angle = 0;
     let branchWidth = (Math.random() * 90) + 1; //140
     let color1 = `rgb(${Math.random() * 255},${Math.random() * 255},${Math.random() * 255})`;
