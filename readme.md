@@ -1,6 +1,9 @@
 # Fun with recursion
 Just a small project to mess around with HTML canvas and JavaScript
 
+# Link to gh pages
+https://gh05ts.github.io/Recursion-Fractals
+
 ## To do
 * Add sliders for user control
 * Add random colors on/ off
